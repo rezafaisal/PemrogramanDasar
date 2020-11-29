@@ -1,0 +1,20 @@
+/**
+ * Pertanyaan:
+ * 1. Apakah seluruh baris di bawah ini sudah benar?
+ * 2. Tunjukkan kesalahan jika ada?
+ */
+import java.util.Scanner;
+
+public class Input04 {
+    public static void main(String[] args) {
+        Scanner masukan = new Scanner(System.in);
+
+        System.out.print("Nama: ");
+        int nama = masukan.nextInt();
+        
+        System.out.print("Umur: ");
+        String umur = masukan.nextLine();
+
+        System.out.println(nama + " berumur " + umur);
+    }
+}
