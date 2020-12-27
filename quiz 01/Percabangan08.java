@@ -1,0 +1,25 @@
+public class Percabangan08 {
+    public static void main(String[] args) {
+        int berat = 60;
+        int tinggi = 172;
+        int umur = 30;
+        
+        if(umur > 40) {
+            if(berat > 70) {
+                if (tinggi < 165) {
+                    tulis("jalan lari cepat");
+                }
+            }
+        } else {
+            if(berat > 70 && tinggi < 165) {
+                tulis("kurangi berat sebelum lari");
+            } else {
+                tulis("selamat berlari");
+            }
+        }
+    }
+
+    public static void tulis(Object x) {
+        System.out.println(x);
+    }
+}
